@@ -1,7 +1,7 @@
 # MEV Army Collection: On-Trait Data Contracts
 
 
-**Official Documentation: **
+Official Documentation:
 https://michael-blau.gitbook.io/mev-army-trait-data-documentation/
 
 # Technical Overview
