@@ -1,6 +1,10 @@
-# MEV Army Collection Trait Data Contracts
+# MEV Army Collection: On-Trait Data Contracts
 
 
-Official Documentation: Coming Soon...
+Official Documentation: Coming Soon ...
+
+# Technical Overview
+
+Coming Soon ...
 
 
