@@ -103,10 +103,10 @@ contract MEVArmyTraitData is Ownable {
 
         // get the slot from storage and unpack it
         uint256 slot = EDITION_SLOTS[slotForTokenId];
-        uint256 [4] memory unpackedSlot = _unPackSlot(slot);
+        uint256 unpackedSlot = _unPackSlot(slot, slotIndex);
 
         // get the edition from the slot and unpack it
-        return _unPackEdition(unpackedSlot[slotIndex]);
+        return _unPackEdition(unpackedSlot);
     }
 
 
@@ -207,15 +207,8 @@ contract MEVArmyTraitData is Ownable {
     * @dev Unpack a slot. Each slot contains 4 packed trait arrays for 4 MEV Army editions.
     *   Each packed trait array is represented as a 64-bit unsigned integer. 
     **/
-    function _unPackSlot(uint256 slot) internal pure returns (uint256 [4] memory){
-        uint256 [4] memory result = [
-            (slot) & uint256(type(uint64).max),
-            (slot >> 64) & uint256(type(uint64).max),
-            (slot >> 128) & uint256(type(uint64).max),
-            (slot >> 192) & uint256(type(uint64).max)
-        ];
-
-        return result;
+    function _unPackSlot(uint256 slot, uint256 slotIndex) internal pure returns (uint256){
+        return  (slot >> (slotIndex * 64)) & uint256(type(uint64).max);
     }
 
 
