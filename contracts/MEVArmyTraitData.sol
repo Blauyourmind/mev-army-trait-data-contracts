@@ -209,7 +209,7 @@ contract MEVArmyTraitData is Ownable {
     *   Each packed trait array is represented as a 64-bit unsigned integer. 
     **/
     function _unPackSlot(uint256 slot, uint256 slotIndex) internal pure returns (uint256){
-        return  (slot >> (slotIndex * 64)) & uint256(type(uint64).max);
+        return (slot >> (slotIndex * 64)) & uint256(type(uint64).max);
     }
 
 
