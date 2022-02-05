@@ -1,8 +1,16 @@
 # MEV Army Collection: On-Chain Trait Data Contracts
 
+MEV Army NFT Contract (Mainnet):
+[0x99cd66b3D67Cd65FbAfbD2fD49915002d4a2E0F2](https://etherscan.io/address/0x99cd66b3D67Cd65FbAfbD2fD49915002d4a2E0F2#code)
+
+MEV Army Trait Data Contract (Mainnet):
+[0xDa10ec807c17A489Ebd1DD9Bd5AAC118C2a43169](https://etherscan.io/address/0xda10ec807c17a489ebd1dd9bd5aac118c2a43169#readContract)
+
+MEV Army Trait Data Contract (Rinkeby):
+[0x7c2Dd85e0529D02b7CCF0Bd17F22693FCf5AE135](https://rinkeby.etherscan.io/address/0x7c2Dd85e0529D02b7CCF0Bd17F22693FCf5AE135#readContract)
 
 Official Documentation:
-https://michael-blau.gitbook.io/mev-army-trait-data-documentation/
+[here](https://michael-blau.gitbook.io/mev-army-trait-data-documentation/)
 
 # Technical Overview
 

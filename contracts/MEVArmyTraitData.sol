@@ -131,6 +131,7 @@ contract MEVArmyTraitData is Ownable {
     }
 
 
+
     ////// FUNCTIONS TO GET INDIVIDUAL TRAITS  //////
 
     function getBinaryDecoded(uint256 tokenId) external view returns (string memory){
@@ -232,6 +233,7 @@ contract MEVArmyTraitData is Ownable {
     }
 
 
+
     ////// SETUP FUNCTIONS //////
 
     function storeEditionSlots(uint256 startIndex, uint256 [] calldata editionSlots) external onlyOwner {
@@ -240,7 +242,7 @@ contract MEVArmyTraitData is Ownable {
             EDITION_SLOTS[startIndex] = editionSlots[i];
             startIndex++;
         }
-        
+
     }
 
 
