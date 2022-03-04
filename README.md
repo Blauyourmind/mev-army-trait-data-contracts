@@ -21,7 +21,6 @@ The trait bit packing works as follows:
 - These seven 8-bit integers are then packed into a 64-bit integer. In other words, each full NFT can be represented as a single 64-bit integer.
 - Finally, four 64-bit integers (representing four NFTs) are packed into a 256-bit integer. This allows me to store four NFT trait combinations in a single storage slot in the smart contract.
 
+## Disclaimer
 
-
-
-
+_These smart contracts are being provided as is. No guarantee, representation or warranty is being made, express or implied, as to the safety or correctness of the user interface or the smart contracts. They have not been audited and as such there can be no assurance they will work as intended, and users may experience delays, failures, errors, omissions or loss of transmitted information. THE SMART CONTRACTS CONTAINED HEREIN ARE FURNISHED AS IS, WHERE IS, WITH ALL FAULTS AND WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING ANY WARRANTY OF MERCHANTABILITY, NON- INFRINGEMENT OR FITNESS FOR ANY PARTICULAR PURPOSE. Further, use of any of these smart contracts may be restricted or prohibited under applicable law, including securities laws, and it is therefore strongly advised for you to contact a reputable attorney in any jurisdiction where these smart contracts may be accessible for any questions or concerns with respect thereto. Further, no information provided in this repo should be construed as investment advice or legal advice for any particular facts or circumstances, and is not meant to replace competent counsel. x0r labs is not liable for any use of the foregoing, and users should proceed with caution and use at their own risk._
